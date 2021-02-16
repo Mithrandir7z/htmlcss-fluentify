@@ -16,6 +16,7 @@ header {
     background-repeat: no-repeat;
     background-size: 1000px;
     background-position: 110% 110%;
+    position: relative;
 }
 
 .container {
@@ -33,25 +34,18 @@ header {
 
 nav {
     padding-top: 10px;
-    background-color: darkkhaki;
 }
 
 .logo {
     background-image: url("../img/logo.svg");
-    width: 250px;
+    width: 170px;
     height: 100px;
     background-repeat: no-repeat;
-    float: left;
-    background-color: crimson;
-}
-
-col {
     float: left;
 }
 
 .left {
     width: 550px;
-    background-color: chartreuse;
     float: left;
     line-height: 40px;
 }
@@ -63,6 +57,69 @@ col {
 }
 
 .right {
-
+    width: 400px;
+    float: left;
+    line-height: 40px;
+    height: 100px;
 }
 
+.right a {
+    display: inline-block;
+    font-size: 13px;
+    padding-right: 22px;
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    float: left;
+    padding-right: 22px;
+    width: 80px;
+    text-align: center;
+    border: solid white 1px;
+    margin-top: 11px;
+    margin-right: 10px;
+    height: 20px;
+    display: inline-block;
+    line-height: 20px;
+}
+
+.button {
+    display: inline-block;
+    width: 110px;
+    height: 20px;
+    background-color: yellowgreen;
+    margin-top: 10px;
+    line-height: 25px;
+    color: white;
+    padding: 1px 1px;
+    text-decoration: none;
+    color: white;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    bottom: 210px;
+    left: 160px;
+}
+
+.text a {
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    background-color: yellowgreen;
+    margin-top: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.row-top {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(184, 184, 184);
+    text-align: center;
+    line-height: 40px;
+}

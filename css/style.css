@@ -33,13 +33,16 @@ header {
 
 nav {
     padding-top: 10px;
+    background-color: darkkhaki;
 }
 
 .logo {
     background-image: url("../img/logo.svg");
-    width: auto;
+    width: 250px;
     height: 100px;
     background-repeat: no-repeat;
+    float: left;
+    background-color: crimson;
 }
 
 col {
@@ -47,10 +50,19 @@ col {
 }
 
 .left {
-    width: 100px;
+    width: 550px;
+    background-color: chartreuse;
+    float: left;
+    line-height: 40px;
+}
+
+.left ul li {
+    display: inline-block;
+    padding-right: 22px;
+    font-size: 13px;
 }
 
 .right {
-    
+
 }
 

@@ -119,3 +119,52 @@ header {
     margin: auto;
     padding-top: 50px;
 }
+
+main {
+    width: 100%;
+    /*test*/
+    height: 1400px;
+}
+
+.wrapper {
+    width: 90%;
+    height: 90%;
+    background-color: turquoise;
+    margin: 5% 5% 5% 5%;
+}
+
+.main__row-top {
+    width: 100%;
+    background-color: tomato;
+}
+
+.main__row-bottom {
+    width: 100%;
+    /*test*/
+    height: 50%;
+    background-color: rgb(255, 206, 71);
+}
+
+.col_left {
+    float: left;
+    width: 30%;
+    height: 630px;
+    background-color: teal;
+    margin: 1.65%;
+} 
+
+.col_centre {
+    float: left;
+    width: 30%;
+    height: 630px;
+    background-color: teal;
+    margin: 1.65%;
+} 
+
+.col_right {
+    float: left;
+    width: 30%;
+    height: 630px;
+    background-color: teal;
+    margin: 1.65%;
+} 

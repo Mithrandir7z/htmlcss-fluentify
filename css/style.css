@@ -31,11 +31,6 @@ header {
     display: table;
 }
 
-
-nav {
-    padding-top: 10px;
-}
-
 .logo {
     background-image: url("../img/logo.svg");
     width: 170px;
@@ -48,6 +43,7 @@ nav {
     width: 550px;
     float: left;
     line-height: 40px;
+    color: white;
 }
 
 .left ul li {
@@ -56,47 +52,40 @@ nav {
     font-size: 13px;
 }
 
+
+/*INIZIO COLONNA DESTRA*/
 .right {
     width: 400px;
     float: left;
     line-height: 40px;
-    height: 100px;
+    padding-left: 5px;
+}
+
+.right nav ul li {
+    display: inline-block;
+    color: white;
 }
 
 .right a {
-    display: inline-block;
     font-size: 13px;
-    padding-right: 22px;
-    float: left;
+    padding-right: 12px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .login {
-    float: left;
-    padding-right: 22px;
-    width: 80px;
-    text-align: center;
-    border: solid white 1px;
-    margin-top: 11px;
-    margin-right: 10px;
-    height: 20px;
-    display: inline-block;
-    line-height: 20px;
+    border: 1px solid white;
+    padding: 5px 15px;
 }
 
-.button {
-    display: inline-block;
-    width: 110px;
-    height: 20px;
+.pulsante {
+    padding-left: 10px;
     background-color: yellowgreen;
-    margin-top: 10px;
-    line-height: 25px;
-    color: white;
-    padding: 1px 1px;
-    text-decoration: none;
-    color: white;
+    padding: 8px;
+    border-radius: 2px;
 }
+/*FINE COLONNA DESTRA*/
+
 
 .text {
     color: white;
@@ -114,12 +103,19 @@ nav {
     padding: 10px 10px;
     text-decoration: none;
     color: white;
+    border-radius: 2px;
 }
 
+
+/*INIZIO RIGA MAIN*/
 .row-top {
     width: 100%;
     height: 150px;
     background-color: rgb(184, 184, 184);
     text-align: center;
-    line-height: 40px;
+}
+
+.row-top__container {
+    margin: auto;
+    padding-top: 50px;
 }
